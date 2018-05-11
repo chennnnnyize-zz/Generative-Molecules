@@ -1,7 +1,4 @@
-# Use Cases
-
-
-## Name: Molecule Generation with Target Properties
+# Molecule Generation with Target Properties
 
 
 ## User: 
