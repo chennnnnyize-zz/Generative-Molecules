@@ -16,3 +16,16 @@ In this project, we propose to take advantage of recent advances in the research
 
 
 ## Contact
+
+
+## Get the Data
+
+To download the original datasets, you can use the `download_dataset.py` script:
+
+* `python download_dataset.py `
+
+
+## Preprocess the data
+
+
+## Training the network
