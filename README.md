@@ -20,6 +20,8 @@ In this project, we propose to take advantage of recent advances in the research
 
 ## Get the Data
 
+A small 50k molecule dataset (data/smiles_50k.h5), a much larger 500k ChEMBL 21 extract (data/smiles_500k.h5), and a model trained on smiles_500k.h5 (data/model_500k.h5) are included.
+All h5 files in this repo by git-lfs rather than included directly in the repo.
 To download the original datasets (zinc12 and chembl22), you can use the `download_dataset.py` script:
 
 * python download_dataset.py --dataset zinc12
