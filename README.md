@@ -20,9 +20,10 @@ In this project, we propose to take advantage of recent advances in the research
 
 ## Get the Data
 
-To download the original datasets, you can use the `download_dataset.py` script:
+To download the original datasets (zinc12 and chembl22), you can use the `download_dataset.py` script:
 
-* `python download_dataset.py `
+* python download_dataset.py --dataset zinc12
+* python download_dataset.py --dataset chembl22
 
 
 ## Preprocess the data
