@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import os
 
+#An example of using MNIST dataset for conditional generation
 
 mnist = input_data.read_data_sets('../../MNIST_data', one_hot=True)
 mb_size = 64
