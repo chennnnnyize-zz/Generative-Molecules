@@ -1,9 +1,11 @@
 # Generative-Molecules
 
 
-This is the DIRECT capstone project.
+This is the repo for DIRECT capstone project: Molecules Design Using Deep Generative Models.
 
 Group Members: Xiaoxiao Jia, Jiaxu Qin, Yize Chen
+
+![alt text](https://github.com/chennnnnyize/Generative-Molecules/blob/master/data/examples.png)
 
 ## Objective
 
