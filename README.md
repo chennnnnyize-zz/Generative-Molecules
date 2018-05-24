@@ -32,5 +32,8 @@ To download the original datasets (zinc12 and chembl22), you can use the `downlo
 
 ## Preprocess the data
 
+Before training the
+
+
 
 ## Training the network
