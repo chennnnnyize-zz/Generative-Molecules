@@ -13,6 +13,8 @@ In this project, we propose to take advantage of recent advances in the research
 
 ![111](https://user-images.githubusercontent.com/35084836/40514598-8a799834-5f5e-11e8-8647-c4cac523c314.png)
 
+![222](https://user-images.githubusercontent.com/35084836/40515765-ed355bd0-5f62-11e8-9860-b877cc0ad4da.png)
+
 ## Algorithm
 
 ### Generative Adversarial Networks(GANs)
