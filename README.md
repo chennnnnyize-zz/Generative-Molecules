@@ -13,9 +13,22 @@ In this project, we propose to take advantage of recent advances in the research
 
 ## Algorithm
 
+### Generative Adversarial Networks(GANs)
+Generative adversarial networks is firstly proposed by Ian Goodfellow et al in 2014, which has been a very successful attempt in generative model. This model makes use of zero-sum game to train two deep neural networks, $G$ the generator $Z->G(Z)$, and $D$ the discriminator $D(X)$ or $D(G(Z))$, simultaneously. During training, the loss for $G$ is:
+
+$L_G=-E_Z(D(G(Z)))$
+
+And the loss for $D$ is:
+
+$L_D=E_Z(D(G(Z)))-E_X(D(X))$
+
+which makes use of Wasserstein distance instead of the KL divergence in original GAN.
+
+We would try to incorporate LSTM/GRU units in our neural networks to fulfill the task of generating sequential structures.
 
 ## Results
 
+Waiting to be completed
 
 ## Contact
 
