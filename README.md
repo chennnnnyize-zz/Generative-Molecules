@@ -32,8 +32,15 @@ To download the original datasets (zinc12 and chembl22), you can use the `downlo
 
 ## Preprocess the data
 
-Before training the
+Before training the network, preprocess.py is needed to convert SMILES strings into matrix and then output as specified file. The detailed functions of preprocess.py are:
+* Normalizes the length of each string to 120 by appending whitespace as needed.
+* Builds a list of the unique characters used in the dataset. (The "charset")
+* Substitutes each character in each SMILES string with the integer ID of its location in the charset.
+* Converts each character position to a one-hot vector of len(charset).
+* Saves this matrix to the specified output file.
 
+Example: 
 
+python preprocess.py data/smiles_50k.h5 data/processed.h5
 
 ## Training the network
