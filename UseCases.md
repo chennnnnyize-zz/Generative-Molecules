@@ -1,5 +1,4 @@
-# Molecule Generation with Target Properties
-
+# Molecules Generation
 
 ## User: 
 
@@ -16,7 +15,7 @@ For a given molecules input data (.txt/.csv file with molecular SMILES string, a
 ## Precondition: 
 
 
-* Python 3.5
+* Python 
 
 * Tensorflow
 
@@ -48,7 +47,7 @@ For a given molecules input data (.txt/.csv file with molecular SMILES string, a
 * SMILES strings
 * Molecules visualisation
 
-![alt text](https://github.com/chennnnnyize/Generative-Molecules/blob/master/Graphs/Moleculesv_Visualisation.png) 
+![alt text](https://github.com/chennnnnyize/Generative-Molecules/blob/master/Graphs/Molecules_Graph.png) 
 
 
 
