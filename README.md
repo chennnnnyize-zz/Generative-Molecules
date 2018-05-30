@@ -29,6 +29,7 @@ We would try to incorporate LSTM/GRU units in our neural networks to fulfill the
 
 
 ## Get the Data
+The GAN model was trained on the SMILES file from the ZINC and ChEMBL database, which contains molecules and measured biological activity data. 
 
 A small 50k molecule dataset (data/smiles_50k.h5), a much larger 500k ChEMBL 21 extract (data/smiles_500k.h5), and a model trained on smiles_500k.h5 (data/model_500k.h5) are included.
 All h5 files in this repo by git-lfs rather than included directly in the repo.
