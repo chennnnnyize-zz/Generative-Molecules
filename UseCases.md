@@ -12,10 +12,9 @@ A user preferably has some basic knowledge about command line inputs that can sp
 For a given molecules input data (.txt/.csv file with molecular SMILES string, and properties: logP, QED, and SAS), the code can firstly encode the molecular SMILES into a code vector representation, this multidimensional continuous representation can be used to train the GAN model, and GAN will be jointly trained with property prediction to help shape the latent space. The new latent space can then be optimized upon to find the molecules with the most optimized properties of interest.
 
 
-
 ## Precondition: 
 
-*	Python 
+	* Python 
 	* Tensorflow
 	* RDKit
 	* numpy
@@ -49,7 +48,7 @@ trained on the ZINC dataset, the objective properties include logP, QED, SAS.
 
 * Molecular Structure: represented in SMILES string
                        
-		       eg. aspirin_smiles = 'CC(=O)Oc1ccccc1C(=O)O'
+		aspirin_smiles = 'CC(=O)Oc1ccccc1C(=O)O'
 
 * Molecular Properties: 
 	
