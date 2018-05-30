@@ -18,19 +18,14 @@ In this project, we propose to take advantage of recent advances in the research
 ## Algorithm
 
 ### Generative Adversarial Networks(GANs)
-Generative adversarial networks is firstly proposed by Ian Goodfellow et al in 2014, which has been a very successful attempt in generative model. This model makes use of zero-sum game to train two deep neural networks, $G$ the generator $Z->G(Z)$, and $D$ the discriminator $D(X)$ or $D(G(Z))$, simultaneously. During training, the loss for $G$ and $D$ are shown as follows respectively:
+
+The main idea behind a GAN is to have two competing neural network models. One takes noise as input and generates samples ( called the generator, G). The other model (called the discriminator, D) receives samples from both the generator and the training data, and has to be able to distinguish between the two sources. These two networks play a continuous game, where the generator is learning to produce more and more realistic samples, and the discriminator is learning to get better and better at distinguishing generated data from real data. These two networks are trained simultaneously, and the hope is that the competition will drive the generated samples to be indistinguishable from real data. During training, the loss for G and D are shown as follows respectively:
 
 ![alt text](https://github.com/chennnnnyize/Generative-Molecules/blob/master/data/equation.png)
 
 which makes use of Wasserstein distance instead of the KL divergence in original GAN.
 
 We would try to incorporate LSTM/GRU units in our neural networks to fulfill the task of generating sequential structures.
-
-## Results
-
-Waiting to be completed
-
-## Contact
 
 
 ## Get the Data
@@ -57,3 +52,12 @@ Example:
 python preprocess.py data/smiles_50k.h5 data/processed.h5
 
 ## Training the network
+
+
+
+## Results
+
+Waiting to be completed
+
+
+## Contact
