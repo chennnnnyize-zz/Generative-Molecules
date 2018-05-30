@@ -30,21 +30,23 @@ For a given molecules input data (.txt/.csv file with molecular SMILES string, a
 
 ## Input:
 
-* Molecular Structure: represented in SMILES string
+	* Molecular Structure: represented in SMILES string
                        
 		       eg. aspirin_smiles = 'CC(=O)Oc1ccccc1C(=O)O'
 
-* Molecular Properties: 
-	Water−octanol partition coefficient (logP);
+	* Molecular Properties: 
 	
-	synthetic accessibility score (SAS);
+		Water−octanol partition coefficient (logP);
 	
-	Quantitative Estimation of Drug-likeness (QED)
+		synthetic accessibility score (SAS);
+	
+		Quantitative Estimation of Drug-likeness (QED)
 
 
 ## Output:
-* SMILES strings
-* Molecules visualisation
+
+	* SMILES strings
+	* Molecules visualisation
 
 ![alt text](https://github.com/chennnnnyize/Generative-Molecules/blob/master/Graphs/Moleculesv_Visualisation.png) 
 
