@@ -1,5 +1,7 @@
 # Generative-Molecules
 
+![alt text](https://github.com/chennnnnyize/Generative-Molecules/blob/master/Graphs/GAN.png)
+
 
 This is the repo for DIRECT capstone project: Molecules Design Using Deep Generative Models.
 
