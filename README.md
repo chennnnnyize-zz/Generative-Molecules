@@ -33,17 +33,21 @@ We would try to incorporate LSTM/GRU units in our neural networks to fulfill the
 ## Get the Data
 The GAN model was trained on the SMILES file from the ZINC and ChEMBL database, which contains molecules and measured biological activity data. 
 
-A small 50k molecule dataset (data/smiles_50k.h5), a much larger 500k ChEMBL 21 extract (data/smiles_500k.h5), and a model trained on smiles_500k.h5 (data/model_500k.h5) are included.
-All h5 files in this repo by git-lfs rather than included directly in the repo.
+A small 50k molecule dataset (`data/smiles_50k.h5`), a much larger 500k ChEMBL 21 extract (`data/smiles_500k.h5`) are included in this repo.
+
+A model trained on `smiles_500k.h5` is included in `data/model_500k.h5`.
+
+**All h5 files in this repo by [git-lfs](https://git-lfs.github.com/) rather than included directly in the repo.**
+
 To download the original datasets (zinc12 and chembl22), you can use the `download_dataset.py` script:
 
-* python download_dataset.py --dataset zinc12
-* python download_dataset.py --dataset chembl22
+    * python download_dataset.py --dataset zinc12
+    python download_dataset.py --dataset chembl22
 
 
 ## Preprocess the data
 
-Before training the network, preprocess.py is needed to convert SMILES strings into matrix and then output as specified file. The detailed functions of preprocess.py are:
+Before training the network, `preprocess.py` is needed to convert SMILES strings into matrix and then output as specified file. The detailed functions of preprocess.py are:
 * Normalizes the length of each string to 120 by appending whitespace as needed.
 * Builds a list of the unique characters used in the dataset. (The "charset")
 * Substitutes each character in each SMILES string with the integer ID of its location in the charset.
@@ -52,9 +56,13 @@ Before training the network, preprocess.py is needed to convert SMILES strings i
 
 Example: 
 
-python preprocess.py data/smiles_50k.h5 data/processed.h5
+    python preprocess.py data/smiles_50k.h5 data/processed.h5
 
-## Training the network
+## Train the network
+
+The preprocessed data can be fed into the `train.py` script:
+
+`python train.py data/processed.h5 model.h5 --epochs 20`
 
 
 
