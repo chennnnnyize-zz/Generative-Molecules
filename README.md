@@ -30,6 +30,18 @@ which makes use of Wasserstein distance instead of the KL divergence in original
 We would try to incorporate LSTM/GRU units in our neural networks to fulfill the task of generating sequential structures.
 
 
+## Requirements
+Install using `pip install -r requirements.txt`
+
+      *tensorflow
+      *h5py
+      *matplotlib
+      *pandas
+      *tables
+      *argparse
+      *progressbar
+
+
 ## Get the Data
 The GAN model was trained on the SMILES file from the ZINC and ChEMBL database, which contains molecules and measured biological activity data. 
 
