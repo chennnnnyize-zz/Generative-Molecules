@@ -33,13 +33,14 @@ We would try to incorporate LSTM/GRU units in our neural networks to fulfill the
 ## Requirements
 Install using `pip install -r requirements.txt`
 
-      *tensorflow
-      *h5py
-      *matplotlib
-      *pandas
-      *tables
-      *argparse
-      *progressbar
+* tensorflow
+* h5py
+* matplotlib
+* pandas
+* tables
+* argparse
+* progressbar
+* RDKit
 
 
 ## Get the Data
