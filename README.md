@@ -41,13 +41,14 @@ A model trained on `smiles_500k.h5` is included in `data/model_500k.h5`.
 
 To download the original datasets (zinc12 and chembl22), you can use the `download_dataset.py` script:
 
-    * python download_dataset.py --dataset zinc12
-    python download_dataset.py --dataset chembl22
+ * `python download_dataset.py --dataset zinc12`
+ * `python download_dataset.py --dataset chembl22`
 
 
 ## Preprocess the data
 
 Before training the network, `preprocess.py` is needed to convert SMILES strings into matrix and then output as specified file. The detailed functions of preprocess.py are:
+
 * Normalizes the length of each string to 120 by appending whitespace as needed.
 * Builds a list of the unique characters used in the dataset. (The "charset")
 * Substitutes each character in each SMILES string with the integer ID of its location in the charset.
@@ -56,13 +57,14 @@ Before training the network, `preprocess.py` is needed to convert SMILES strings
 
 Example: 
 
-    python preprocess.py data/smiles_50k.h5 data/processed.h5
+      python preprocess.py data/smiles_50k.h5 data/processed.h5
+
 
 ## Train the network
 
 The preprocessed data can be fed into the `train.py` script:
 
-`python train.py data/processed.h5 model.h5 --epochs 20`
+      python train.py data/processed.h5 model.h5 --epochs 20`
 
 
 
