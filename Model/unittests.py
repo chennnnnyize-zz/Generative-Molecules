@@ -23,6 +23,10 @@ class TestUM(unittest.TestCase):
           return True
         except ValueError:
           return False
+        
+    def test_function(self):
+     try: 
+     except ValueError:
  
 if __name__ == '__main__':
     unittest.main()
