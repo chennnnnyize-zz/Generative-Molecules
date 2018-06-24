@@ -5,7 +5,9 @@
 
 This is the repo for DIRECT capstone project: Molecules Design Using Deep Generative Models.
 
-Group Members: Xiaoxiao Jia, Jiaxu Qin, Yize Chen
+Group Members: Xiaoxiao Jia, Jiaxu Qin and Yize Chen
+
+Advisors: Baosen Zhang and Alex K.-Y. Jen
 
 ![alt text](https://github.com/chennnnnyize/Generative-Molecules/blob/master/data/examples.png)
 
@@ -83,7 +85,8 @@ The preprocessed data can be fed into the `train.py` script:
 
 ## Results
 
-Waiting to be completed
+Generated molecules, statistics and visualizations are shown in the DIRECT showcase.
 
 
 ## Contact
+Xiaoxiao Jia, xiaoxj2@uw.edu
