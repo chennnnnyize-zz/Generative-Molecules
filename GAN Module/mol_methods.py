@@ -349,6 +349,12 @@ def compute_results(model_samples, train_data, ord_dict, results={}, verbose=Tru
         results['model_samples'] = smi_name
     if verbose:
         print_results(verified_samples, unverified_samples, results)
+    
+    h5f = h5py.File('generated_samples.h5', 'w')
+    h5f.create_dataset('Total_samples', data = np.string_(samples))
+    h5f.create_dataset('verified_samples', data = np.string_(verified_samples))
+    h5f.create_dataset('unverified_samples', data = np.string_(unverified_samples))
+    print("Generated Molecules saved in file!")
     return
 
 def print_results(verified_samples, unverified_samples, results={}):
