@@ -87,6 +87,13 @@ The preprocessed data can be fed into the `train.py` script:
 
 Generated molecules, statistics and visualizations are shown in the DIRECT showcase.
 
+## Contributions
+
+Xiaoxiao Jia: Data Pre-processing, Code Design, Generative model code writing, Unit tests
+
+Yize Chen: Model Deriving, Code debugging
+
+Jiaxu Qin: Presentation
 
 ## Contact
 Xiaoxiao Jia, xiaoxj2@uw.edu
