@@ -85,7 +85,15 @@ The preprocessed data can be fed into the `train.py` script:
 
 ## Results
 
-Generated molecules, statistics and visualizations are shown in the DIRECT showcase.
+The `sample.py` script can be used to run either the autoencoder (for testing) or either the encoder or decoder halves using the --target parameter. The data file must include a charset field.
+      
+      python sample.py data/processed.h5 model.h5 --target autoencoder
+      
+      python sample.py data/processed.h5 model.h5 --target encoder --save_h5 encoded.h5
+
+
+Generated molecules, statistics and visualizations are shown in the `results` folder and in the DIRECT showcase.
+
 
 ## Contributions
 
